@@ -1,0 +1,14 @@
+<ModifierDefs><List>
+	<Modifier Name="Dan_IncreaseLife_Gai" Type="Normal">
+		<DisplayName>改命丹</DisplayName>
+		<Desc></Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="MaxAge" AddV="180"/>
+			<li Name="GodPenaltyAddV" AddV="-10"/>
+			<li Name="AbilityLvAddV" AddV="-30"/>
+		</Properties>
+	</Modifier> 
+</List></ModifierDefs>

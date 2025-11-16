@@ -1,0 +1,31 @@
+<ThingDefs><List>
+	<ThingDef Type="Item" Name="Item_Dan_IncreaseLife_Gai" Parent="DanBase">
+		<MaxStack>100</MaxStack>
+		<ThingName>改命丹</ThingName>
+		<TexPath>res\Sprs\object\object_HULUdanyao04</TexPath>
+		<Desc>可以延寿三甲子，并降低道行三十及天谴十的丹药，可一直服用。</Desc>	
+		<Rate>7</Rate>	
+		<Beauty>10</Beauty>
+		<ElementKind>None</ElementKind>
+		<Item Lable="Dan">
+			<PhysicalLables>
+				<li>Smooth2</li>
+				<li>Hard1</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Dan_IncreaseLife_Gai</Modifier>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>400</WorkToMake>
+				<CostItems>
+					<Item name = "Item_LingStone" count = "1"/>
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>None</Kind>
+			<Value>0</Value> 
+		</Element>
+	</ThingDef>
+</List></ThingDefs>
